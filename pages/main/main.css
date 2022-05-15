@@ -68,29 +68,177 @@
     max-width: 460px;
 }
 .section__start-main {
-    position: relative;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .under__title {
     margin-top: 42px;
     margin-bottom: 42px;
 }
 .paragraph-l-under {
- color: #CDCDCD;
- font-family: Arial, Helvetica, sans-serif;
- font-weight: 400;
- font-size: 15px;
- line-height: 24px;
+    color: #CDCDCD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
 }
 /* Section info ends */
+
+/* Section about starts */
+.section__start-about {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.about__title {
+    margin-top: 14px;
+}
+.about__under-tittle {
+    margin-top: 25px;
+}
+.about__text-content {
+    max-width: 430px;
+    margin-right: 175px;
+}
+.about__picture {
+    margin-left: 175px;
+}
+/* Section about ends */
+
+/* Section our-pets starts */
+.our__pets {
+    background-color: #F6F6F6;
+}
+.our__pets-starting {
+    padding-top: 80px;
+}
+.our__pets-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.our__pets-grid {
+    display: grid;
+    grid-template-columns: 5rem auto auto auto 5rem;
+    margin-bottom: 60px;
+    grid-template-rows: 435px;
+}
+.button__in-grid {
+    margin-top: 192px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.our__pets-card {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+    margin-left: 50px;
+}
+.our__pets-card:hover {
+    transition: box-shadow .3s;
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.055); 
+}
+.card__set {
+    display: grid;
+}
+.pic__card /* TODO:*/{
+    padding: 1px;
+}
+.title__card {
+    margin-top: 30px;
+    text-align: center;
+}
+.card__button {
+    margin-left: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.our__pets-ending {
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 70px;
+}
+/* Section our-pets ends */
+
+/* Section help__us starts */
+.help__us-starting {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.help__us-heading {
+    text-align: center;
+}
+.help__us-grid {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 120.2px;
+    justify-content: center;
+    row-gap: 54px;
+    max-width: 1200px;
+    min-height: 200px;
+    margin: 60px;
+}
+.help__us-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list__help-us-pic {
+    margin-bottom: 30px;
+}
+/* Section help__us ends */
+
+/* Section donation starts */
+.donation {
+    background-color: #F6F6F6;
+}
+.donation__starting {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.donation__pic {
+    margin-right: 30px;
+    margin-left: 100px;
+}
+.donation__text-content {
+    max-width: 382px;
+    margin-right: 20px;
+}
+.donation__heading-under {
+    margin-top: 20px;
+}
+.credit__card-donation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pink_button-credit {
+    width: 349px;
+    height: 43px;
+    border-radius: 9px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #F1CDB3;
+    outline: none;
+    border: none;
+}
+.button-pic_donation {
+    padding-right: 20px;
+}
+/* Section donation ends */
+
+/* Section footer starts TODO: */
+/* Section footer ends */

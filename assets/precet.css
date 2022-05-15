@@ -409,7 +409,7 @@ h5 {
 }
 
 .pink_button {
-    width: 207px;
+    width: 200px;
     height: 52px;
     border-radius: 100px;
     display: -webkit-box;
@@ -429,6 +429,27 @@ h5 {
     outline: none;
     border: none;
 }
+.white_button {
+    width: 200px;
+    height: 52px;
+    border-radius: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    outline: none;
+    border: 2px solid #FDDCC4;
+}
 .button_text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
@@ -439,5 +460,26 @@ h5 {
 }
 .pink_button:hover {
     background-color: #FDDCC4;
+}
+.white_button:hover {
+    background-color: #FDDCC4;
+}
+.pink_slider-button {
+    align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100%;
+    box-sizing: border-box;
+    margin-bottom: -20px;
+    background-color: #F6F6F6;
+}
+.pink_slider-button:hover {
+    background-color: #F1CDB3;
 }
 /* My own precents - Fonts and ets.. */
