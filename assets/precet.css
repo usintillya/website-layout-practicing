@@ -359,3 +359,85 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
+
+/* My own precents - Fonts and ets.. */
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57px;
+    color: #545454;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 6%;
+    color: #545454;
+}
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 6%;
+    color: #545454;
+}
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 6%;
+    color: #545454;
+}
+.paragraph-l {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C; 
+}
+.paragraph-s {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+
+.pink_button {
+    width: 207px;
+    height: 52px;
+    border-radius: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #F1CDB3;
+    outline: none;
+    border: none;
+}
+.button_text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 6%;
+    color: #292929;
+}
+.pink_button:hover {
+    background-color: #FDDCC4;
+}
+/* My own precents - Fonts and ets.. */
