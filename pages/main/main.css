@@ -215,7 +215,7 @@
     margin-bottom: 20px;
 }
 .pink_button-credit {
-    width: 349px;
+    width: 300px;
     height: 43px;
     border-radius: 9px;
     display: -webkit-box;
@@ -235,10 +235,48 @@
     outline: none;
     border: none;
 }
+.pink_button-credit:hover {
+    background-color: #FDDCC4;
+}
 .button-pic_donation {
     padding-right: 20px;
 }
 /* Section donation ends */
 
-/* Section footer starts TODO: */
+/* Section footer starts*/
+footer {
+    height: 350px;
+    background: url(/assets/images/start-screen-gradient-background.png) no-repeat;
+    background-size: cover;
+}
+.footer__content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 310px;
+    column-gap: 100px;
+    padding-top: 40px;
+}
+.footer__questions-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57px;
+    color: #FAFAFA;
+    padding-top: 15px;
+}
+.footer__sub-menu {
+    padding-top: 40px;
+}
+.sub__menu-footer-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 6%;
+    color: #F1CDB3;
+    text-decoration: none;
+}
+.footer-icon {
+    padding-right: 20px;
+}
 /* Section footer ends */
