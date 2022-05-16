@@ -142,8 +142,8 @@
 .card__set {
     display: grid;
 }
-.pic__card /* TODO:*/{
-    padding: 1px;
+.pic__card {
+    border-radius: 10px;
 }
 .title__card {
     margin-top: 30px;
@@ -218,18 +218,9 @@
     width: 300px;
     height: 43px;
     border-radius: 9px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     background-color: #F1CDB3;
     outline: none;

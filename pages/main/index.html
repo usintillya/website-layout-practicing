@@ -11,20 +11,19 @@
 </head>
 <body>
     <main class="main">
-        <! Section Header starts TODO: Hrefs to elements on page, 
-        Padding border bottom>
+        <! Section Header starts>
         <header class="header">
             <div class="wrapper">
                 <div class="header__wraper">
-                    <div class="header__logo-img">
+                    <div>
                         <a href="index.html">
                             <h1><img src="/assets/icons/logo.svg" alt="logo-main-page"></h1>
                         </a>
                     </div>
-                    <nav class="header__nav">
+                    <nav>
                         <ul class="header__list">
                             <li class="list__item">
-                                <a href="#" class="header__link-active">
+                                <a href="/pages/main/index.html" class="header__link-active">
                                     About the shelter
                                 </a>
                             </li>
@@ -34,12 +33,12 @@
                                 </a>
                             </li>
                             <li class="list__item">
-                                <a href="#" class="header__link">
+                                <a href="#help" class="header__link">
                                     Help the shelter
                                 </a>
                             </li>
                             <li class="list__item">
-                                <a href="#" class="header__link">
+                                <a href="#footer" class="header__link">
                                     Contacts
                                 </a>
                             </li>
@@ -49,26 +48,24 @@
             </div>
         </header>
         <! Section Header ends>
-        <! Section info starts TODO: Hrefs>
+        <! Section info starts>
         <section class="intro">
             <div class="wrapper">
                 <div class="section__start-main">
                     <div class="text__content">
-                        <div class="title">
+                        <div>
                             <h2 class="title">Not only people <br> need a house</h2>
                             <div class="under__title">
                                 <a class="paragraph-l-under">
                                     We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!
                                 </a>
                             </div>
-                            <a href="#">
-                                <button class="pink_button">
-                                    <a class="button_text">Make a friend</a>
-                                </button>
-                            </a>
+                            <button class="pink_button" onclick="window.location.href = '#makefriend';">
+                                <a class="button_text">Make a friend</a>
+                            </button>  
                         </div>
                     </div>
-                    <div class="picture__of-puppy">
+                    <div>
                         <img src="/assets/images/start-screen-puppy.png" alt="puppy">
                     </div>
                 </div>
@@ -76,7 +73,7 @@
         </section>
         <! Section info ends>
         <! Section about starts>
-        <section class="about__pets">
+        <section>
             <div class="wrapper">
                 <div class="section__start-about">
                     <div class="about__picture">
@@ -97,8 +94,8 @@
             </div>
         </section>
         <! Section about ends>
-        <! Section our-pets starts TODO: Border-radius for pics>
-        <section class="our__pets">
+        <! Section our-pets starts>
+        <section id="makefriend" class="our__pets">
             <div class="wrapper">
                 <div class="our__pets-starting">
                     <div class="our__pets-heading">
@@ -114,7 +111,7 @@
                         <div class="our__pets-card">
                             <div class="card__set">
                                 <div>
-                                    <img calss="pic__card" src="/assets/images/katrine.png" alt="Katrine">
+                                    <img class="pic__card" src="/assets/images/katrine.png" alt="Katrine">
                                 </div>
                                 <div class="title__card">
                                     <a class="button_text">Katrine</a>
@@ -131,7 +128,7 @@
                         <div class="our__pets-card">
                             <div class="card__set">
                                 <div>
-                                    <img calss="pic__card" src="/assets/images/jennifer.png" alt="Jennifer">
+                                    <img class="pic__card" src="/assets/images/jennifer.png" alt="Jennifer">
                                 </div>
                                 <div class="title__card">
                                     <a class="button_text">Jennifer</a>
@@ -148,7 +145,7 @@
                         <div class="our__pets-card">
                             <div class="card__set">
                                 <div>
-                                    <img calss="pic__card" src="/assets/images/woody.png" alt="Woody">
+                                    <img class="pic__card" src="/assets/images/woody.png" alt="Woody">
                                 </div>
                                 <div class="title__card">
                                     <a class="button_text">Woody</a>
@@ -169,11 +166,9 @@
                         </div>
                     </div>
                     <div class="our__pets-ending">
-                        <a href="#">
-                            <button class="pink_button">
-                                <a class="button_text">Get to know the rest</a>
-                            </button>
-                        </a>
+                        <button class="pink_button">
+                            <a class="button_text" onclick="window.location.href = '/pages/pets/pets.html';">Get to know the rest</a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -230,7 +225,7 @@
         </section>
         <! Section how-you-can-help ends>
         <! Section donation starts>
-        <section class="donation">
+        <section id="help" class="donation">
             <div class="wrapper">
                 <section class="donation__starting">
                     <div class="donation__pic">
@@ -259,7 +254,7 @@
         </section>
         <! Section donation ends>
         <! Section footer starts>
-        <footer class="footer">
+        <footer id="footer" class="footer">
             <div class="wrapper">
                 <div class="footer__content">
                     <div class="footter_questions">
