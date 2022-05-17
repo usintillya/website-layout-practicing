@@ -458,6 +458,7 @@ h5 {
     box-sizing: border-box;
     margin-bottom: -20px;
     background-color: #F6F6F6;
+    text-decoration: none;
 }
 .pink_slider-button:hover {
     background-color: #F1CDB3;
