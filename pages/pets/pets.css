@@ -241,3 +241,76 @@ footer {
         display: none;
     }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .wrapper {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .header__wraper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .list__item {
+        display: none;
+    }
+    .pet__card-inactive-320 {
+        display: none;
+    }
+    .our__pets {
+        background-color: #F6F6F6;
+        margin-top: 120px;
+    }
+    .our__pets-grid {
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 20px; 
+        grid-template-areas: 
+          "."
+          "."
+          "."; 
+    }
+    .our__pets-title {
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .our__pets-card {
+        width: 270px;
+        height: 435px;
+        background-color: #FAFAFA;
+        border-radius: 9px;
+        
+        margin-left: 20px;
+    }  
+    .footer__content {
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.6fr 0.6fr 0.6fr; 
+        gap: 24px; 
+        grid-template-areas: 
+          "."
+          "."
+          "."; 
+    }
+    footer {
+        height: 809px;
+        background: url(/assets/images/start-screen-gradient-background.png) no-repeat;
+        background-size: cover;
+    }
+    .footer__questions-title { padding-top: 0; }
+    .footer__pic { 
+        padding-top: 0; 
+        margin-left: 0;
+    }
+    .footer__sub-menu { padding-top: 10px; }
+    .footer__puppy-pic {
+        max-width: 259px;
+    }   
+}
