@@ -4,7 +4,7 @@
 }
 .main {
     height: 908px;
-    background: url(/assets/images/start-screen-gradient-background.png) no-repeat;
+    background: url(../../assets/images/start-screen-gradient-background.png) no-repeat;
     background-size: cover;
 }
 /* Section header starts */
@@ -237,7 +237,7 @@
 /* Section footer starts*/
 footer {
     height: 350px;
-    background: url(/assets/images/start-screen-gradient-background.png) no-repeat;
+    background: url(../../assets/images/start-screen-gradient-background.png) no-repeat;
     background-size: cover;
 }
 .footer__content {
@@ -382,7 +382,7 @@ footer {
       .footer__pic { grid-area: footer__pic; }
     footer {
         height: 639px;
-        background: url(/assets/images/start-screen-gradient-background.png) no-repeat;
+        background: url(../../assets/images/start-screen-gradient-background.png) no-repeat;
         background-size: cover;
     }
     .footer__questions-title { padding-top: 0; }
@@ -529,7 +529,7 @@ footer {
     }
     footer {
         height: 809px;
-        background: url(/assets/images/start-screen-gradient-background.png) no-repeat;
+        background: url(../../assets/images/start-screen-gradient-background.png) no-repeat;
         background-size: cover;
     }
     .footer__questions-title { padding-top: 0; }

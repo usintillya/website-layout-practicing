@@ -301,7 +301,7 @@ footer {
     }
     footer {
         height: 809px;
-        background: url(/assets/images/start-screen-gradient-background.png) no-repeat;
+        background: url(../../assets/images/start-screen-gradient-background.png) no-repeat;
         background-size: cover;
     }
     .footer__questions-title { padding-top: 0; }
