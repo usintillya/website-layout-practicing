@@ -405,7 +405,7 @@ footer {
 
 @media (min-width: 320px) and (max-width: 767px) {
     .intro { padding-top: 130px; }
-    .header__wraper { margin-top: 30px; }
+    .header__wraper { margin-top: 30px;}
     .hambueger__menu {
         display: block;
     }
@@ -426,9 +426,19 @@ footer {
         background-color: #262626;
         opacity: 90%;
         width: 100%;
-        height: 100%;
+        height: 230px;
         text-align: center;
         transition: 0.3s;
+    }
+    .disable__scroll {
+        position: relative;
+        overflow: hidden;
+        height: 100vh;
+    }
+    .enable__scroll {
+        position: relative;
+        overflow: auto;
+        height: 100vh; 
     }
     .list__item {
         margin-top: 20px;
